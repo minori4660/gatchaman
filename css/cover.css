@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*イントロテキストエリア*/
+.text_wrapper {margin: 20px 0;}
+
+.text_wrapper h2{font-size: 28px;
+	font-weight: bold;
+	color: #7B8266;}
+
+.text_wrapper p {
+	line-height:2;/*行間を２文字分あける*/
+	color: #fff;}
+
+/* バナーエリア */
+.banner_box{display: flex;/*中にある.bannerを横並びにするため*/
+    justify-content: space-between;}/*均等に配置する*/
+
+.banner {width: 280px;
+	background-color: #353C2C;
+	padding: 10px;}
+
+.banner h3 {
+    padding: 10px;
+	font-size: 16px;}
+
+
+
+/* jQuery スライド */
+.slideshow {
+	margin: 0 0 10px 0;
+	position:relative;
+	width:100%;
+	height:400px;
+	overflow:hidden;}
+
+.slideshow img { position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    width: 100%;}
+
+.slideshow img.active { z-index:10; }
+
+.slideshow img.last-active { z-index:9; }

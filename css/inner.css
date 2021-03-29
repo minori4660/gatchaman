@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*各ページarticle内のメイン画像*/
+.contents_box{
+    display: flex;
+    justify-content: space-between;}/*均等に配置する*/
+
+/*各ページの共通テキストエリア*/
+.text_area{margin-top: 30px;}
+
+.text_area h2{font-size: 32px;}
+
+.text_area h3{font-size: 22px;}
+
+.text_area p{margin-top: 20px;
+    line-height: 2}/*行間を２文字分あける*/
+
+/*キャストページ*/
+.text_area .cast {
+	border-bottom: 1px #7b8266 dashed;
+	margin: 40px 0;}
+
+.cast div{display: flex;}/*pタグと画像を横並びにする*/
+
+.cast img{margin:0 0 30px 20px;}
